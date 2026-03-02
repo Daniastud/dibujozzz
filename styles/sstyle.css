@@ -9,7 +9,7 @@ h1{
 #dibujo {
     width: 40vw;
     height: 40vw;
-    background-color: aquamarine;
+    background-color: rgb(153, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,26 +19,86 @@ h1{
 #cara {
     width:40%;
     height:60%;
-    background-color:peachpuff;
+    background-color:rgb(255, 191, 135);
     border-radius: 50%;
     position: relative;
+}
+
+#cara:hover {
+    transform: rotate(350deg) scale(0.8);
+    transition: all 2s ease-in;
+}
+
+#bigote {
+     width:40%;
+    height:60%;
 }
 
 .ojos {
     height: 20%;
     width: 20%;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     position:absolute;
 }
 
+.pupila {
+    width:40%;
+    height:40%;
+    background-color: black;
+    border-radius: 50%;
+    position:absolute;
+    top:30%;
+    left:30%;
+}
+
+#pupila:hover {
+    transition: all 2s ease-in-out;
+    transform: rotate(350deg) scale(0.5);
+}
+
+
 #ojoIzq {
     top:20%;
     left: 20%;
+    transform: rotate(350deg) scale(0.5);
+    transition: all 2s ease-in;
 }
 
 #ojoDer {
     top: 20%;
-    left: 20%;
+    right: 20%;
+}
+
+#ojo:hover {
+    transition: all 2s;
+    transform: rotate(350deg) scale(0.5);
+}
+
+#boca {
+    width: 8%;
+    height: 15%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 0 0 25% 25%;
+    position: absolute;
+    box-align: center;
+    transition: all 2s ease-in;
+    animation-name: iceGreen;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+
+}
+
+#boca:hover {
+    background-color: rgb(68, 149, 224);
+    height: 18%;
+}
+
+@keyframes iceGreen{
+    0% {background-color: greenyellow; height: 0%;}
+    25% {background-color: pink;}
+    50% {background-color: blue;}
+    100% {background-color: orange; height: 20%;}
+
 }
 

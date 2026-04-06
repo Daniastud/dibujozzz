@@ -3,7 +3,7 @@
 const titulo = document.getElementById("titulo");
 const pensamiento = document.getElementById("pensamiento");
 
-const listaTextos = ["Hello", "and welcome to", "the Los Pollos Hermanos", "me llamo Pepito", "see...", "...", "Adivina quien es mi fan numero 1", "tu", "porque sigues dandole click", "Te cuento un chiste?", "habia un niño que se llamaba PegaStick", "se cayo y se pego...", "xD"];
+const listaTextos = ["Hello", "and welcome to", "the Los Pollos Hermanos", "me llamo Pepito", "see...", "...", "Adivina quien es mi fan numero 1", "eres tú", "porque sigues dandole click", "Te cuento un chiste?", "habia un niño que se llamaba PegaStick", "se cayo y se pego...", "xD"];
 let estadoInicial =true;
 let indice = 0;
 
